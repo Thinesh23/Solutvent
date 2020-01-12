@@ -1,0 +1,96 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#e0ffff"
+    tools:context=".MainActivity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <View
+            android:layout_width="350dp"
+            android:layout_height="1dp"
+            android:layout_marginTop="50dp"
+
+            android:layout_gravity="center_horizontal"
+            android:background="@android:color/background_dark" />
+
+        <TextView
+            android:id="@+id/app_logo"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:shadowColor="@android:color/holo_purple"
+            android:shadowDx="2"
+            android:shadowDy="2"
+            android:shadowRadius="4"
+            android:gravity="center_horizontal"
+            android:text="@string/app_name"
+            android:textAllCaps="true"
+            android:textColor="@color/colorPrimaryDark"
+            android:textSize="55dp"
+            android:fontFamily="sans-serif-smallcaps"
+            android:textStyle="bold" />
+
+
+        <View
+            android:layout_width="350dp"
+            android:layout_height="1dp"
+            android:layout_gravity="center_horizontal"
+            android:background="@android:color/background_dark" />
+
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="260dp"
+            android:layout_marginTop="20dp"
+            android:src="@drawable/backgroundevent3" />
+
+
+        <TextView
+            android:id="@+id/txtslogan"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:shadowColor="@android:color/holo_purple"
+            android:shadowDx="1"
+            android:shadowDy="1"
+            android:fontFamily="cursive"
+            android:shadowRadius="2"
+            android:gravity="center"
+            android:textStyle="italic"
+            android:textSize="25dp"
+            android:text="@string/slogan"
+            android:textColor="@color/colorPrimaryDark" />
+
+    </LinearLayout>
+
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="JustSkip"
+        android:textColor="@color/colorPrimaryDark"
+        android:fontFamily="cursive"
+        android:id="@+id/txt_skip"
+        android:textSize="22sp"
+        android:layout_centerHorizontal="true"
+        android:layout_alignParentBottom="true"/>
+    
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Login"
+        android:background="@color/colorPrimaryDark"
+        android:id="@+id/btn_login"
+        android:textColor="@android:color/white"
+        android:layout_above="@+id/txt_skip"
+        android:textSize="22sp"/>
+
+
+
+
+
+</RelativeLayout>

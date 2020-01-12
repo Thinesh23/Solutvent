@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "949784990099",
+    "firebase_url": "https://solutvent.firebaseio.com",
+    "project_id": "solutvent",
+    "storage_bucket": "solutvent.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:949784990099:android:6a7fa897670ffc40cc5866",
+        "android_client_info": {
+          "package_name": "example.com.androidevent"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "949784990099-ns22h2t3u5l5demttp86gmumjg9ceg3q.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "example.com.androidevent",
+            "certificate_hash": "ba986a6ad91948dc5b3d5a2cf0be80dbc49b019d"
+          }
+        },
+        {
+          "client_id": "949784990099-2qnrksaodroua0gq110dgnt6juf1rcqd.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyApZ4PLG-MLvJ8YbXMSn7anW3uawnrnLRA"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "949784990099-2qnrksaodroua0gq110dgnt6juf1rcqd.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
